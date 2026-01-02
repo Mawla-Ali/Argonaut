@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/Landing-Page-Jasa-Website/",
+  base: "/argonaut/",
 });
