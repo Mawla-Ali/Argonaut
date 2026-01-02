@@ -29,5 +29,12 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17",
     "vite": "^7.2.4"
+  },
+  "homepage":"https://github.com/Mawla-Ali/argonaut"
+  "scripts":{
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   }
 }
