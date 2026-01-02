@@ -9,7 +9,7 @@ import LandingPage from "./pages/landing.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/argonaut/",
     element: <LandingPage />,
     errorElement: <ErrorPage></ErrorPage>,
   },
