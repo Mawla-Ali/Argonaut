@@ -30,7 +30,7 @@
     "tailwindcss": "^4.1.17",
     "vite": "^7.2.4"
   },
-  "homepage":"https://github.com/Mawla-Ali/argonaut"
+  "homepage":"https://Mawla-Ali.github.io/argonaut"
   "scripts":{
     "dev": "vite",
     "build": "vite build",
