@@ -152,7 +152,7 @@ const Rabi = (props) => {
     <div className="relative ">
       <div className="flex justify-center">
         <div className="grid grid-cols-1 place-items-center md:flex md:justify-center md:max-w-3/4 md:w-full md:-mt-18 md:gap-x-12 lg:flex lg:justify-center lg:max-w-7xl lg:w-full lg:gap-x-12 lg:-mt-18">
-          <div className="max-h-5/6 h-full bg-slate-50  w-[525px] rounded-2xl mt-[88px] p-7 md:p-11 md:pb-48 pb-24 drop-shadow-2xl lg:max-w-xl lg:w-full ring-1 ring-slate-400 ">
+          <div className="max-h-5/6 h-full bg-white max-w-11/12 w-[525px] rounded-2xl mt-[88px] p-7 md:p-11 md:pb-48 pb-24 drop-shadow-2xl lg:max-w-xl lg:w-full ring-1 ring-slate-400 ">
             <h1 className="flex justify-center font-bold text-4xl text-slate-800 py-3">Starter</h1>
             <h2 className="text-4xl flex justify-center font-bold text-slate-800 ">Rp 1.000.000 </h2>
             <p className=" text-slate-500 text-xs justify-center flex py-6">Undangan digital sederhana untuk berbagi kabar bahagia</p>
@@ -163,7 +163,7 @@ const Rabi = (props) => {
               </Tombol>
             </div>
           </div>
-          <div className="max-h-5/6 h-full bg-slate-50  w-[525px] rounded-2xl mt-[88px] p-7 md:p-11 md:pb-48 pb-24 drop-shadow-2xl lg:max-w-xl lg:w-full ring-4 ring-[#1446DB]">
+          <div className="max-h-5/6 h-full bg-white max-w-11/12 w-[525px] rounded-2xl mt-[88px] p-7 md:p-11 md:pb-48 pb-24 drop-shadow-2xl lg:max-w-xl lg:w-full ring-4 ring-[#1446DB]">
             <h1 className="flex justify-center font-bold text-4xl text-slate-800 py-3">Growth</h1>
             <h2 className="text-4xl flex justify-center font-bold text-slate-800 ">Rp 2.500.000 </h2>
             <p className=" text-slate-500 text-xs justify-center flex py-6">Undangan Interaktif dengan Sentuhan Personal dan Cerita Cinta</p>
@@ -174,7 +174,7 @@ const Rabi = (props) => {
               </Tombol>
             </div>
           </div>
-          <div className="max-h-5/6 h-full bg-slate-50  w-[525px] rounded-2xl mt-[88px] p-7 md:p-11 md:pb-48 pb-24 drop-shadow-2xl lg:max-w-xl lg:w-full ring-1 ring-slate-400 ">
+          <div className="max-h-5/6 h-full bg-white max-w-11/12 w-[525px] rounded-2xl mt-[88px] p-7 md:p-11 md:pb-48 pb-24 drop-shadow-2xl lg:max-w-xl lg:w-full ring-1 ring-slate-400 ">
             <h1 className="flex justify-center font-bold text-4xl text-slate-800 py-3">Premium</h1>
             <h2 className="text-4xl flex justify-center font-bold text-slate-800 ">Rp 3.000.000 </h2>
             <p className=" text-slate-500 text-xs justify-center flex py-6">Undangan digital eksklusif untuk momen sekali seumur hidup</p>

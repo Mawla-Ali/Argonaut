@@ -6,7 +6,7 @@ const Navbar = (props) => {
     <div className="relative">
       <div className="mx-16 flex grid-auto-fit">
         <a href="#">
-          <h1 className="font-bold text-5xl text-white mr-40 -ml-2 md:ml-1">ARGONAUT</h1>
+          <h1 className="font-bold text-2xl -ml-14 md:text-5xl text-white md:mr-40 md:-ml-2 ">ARGONAUT</h1>
         </a>
         {/* Navbar Start */}
         <Navhp className="block md:hidden" />

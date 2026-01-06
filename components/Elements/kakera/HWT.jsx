@@ -187,18 +187,18 @@ const Travel = (props) => {
     <div className="relative ">
       <div className="flex justify-center md:-mt-20">
         <div className="grid grid-cols-1 place-items-center md:flex md:justify-center md:max-w-3/4 md:w-full md:-mt-3.5 md:gap-x-12 lg:flex lg:justify-center lg:max-w-7xl lg:w-full lg:gap-x-12 lg:mt-0.5">
-          <div className="max-h-5/6 h-full bg-slate-50 max-w-11/12 w-full rounded-2xl mt-[88px] p-7 md:p-10  md:pb-48 pb-24 drop-shadow-2xl ring-1 ring-slate-400 ">
+          <div className="max-h-5/6 h-full bg-[#ffffff] max-w-11/12 w-full rounded-2xl mt-[88px] p-7 md:p-10  md:pb-48 pb-24 drop-shadow-2xl ring-1 ring-slate-400">
             <h1 className="flex justify-center font-bold text-4xl text-slate-800 py-3">Starter</h1>
             <h2 className="text-4xl flex justify-center font-bold text-slate-800 ">Rp 2.500.000 </h2>
             <p className=" text-slate-500 text-xs justify-center flex py-6">Cocok untuk bisnis travel yang baru mulai terjun ke dunia digital, dan ingin website profesional</p>
             <Hkal />
-            <div className="flex justify-center md:mt-40 lg:mt-18  ">
+            <div className="flex justify-center md:mt-40 lg:mt-18">
               <Tombol variant="ab" jen="p" hubung="https://wa.me/6285701468892?text=Halo%20saya%20ingin%20konsultasi%20website%20Travel%20&%20Tour%20paket%20starter">
                 Free Consult
               </Tombol>
             </div>
           </div>
-          <div className="max-h-5/6 h-full bg-slate-50 max-w-11/12 w-full rounded-2xl mt-[88px] p-7 md:p-10  md:pb-48 pb-24 drop-shadow-2xl ring-4 ring-[#1446DB]">
+          <div className="max-h-5/6 h-full bg-[#ffffff] max-w-11/12 w-full rounded-2xl mt-[88px] p-7 md:p-10  md:pb-48 pb-24 drop-shadow-2xl ring-4 ring-[#1446DB]">
             <h1 className="flex justify-center font-bold text-4xl text-slate-800 py-3">Growth</h1>
             <h2 className="text-4xl flex justify-center font-bold text-slate-800 ">Rp 4.750.000 </h2>
             <p className=" text-slate-500 text-xs justify-center flex py-6">Website rapi dan fungsional untuk kebutuhan travel yang profesional </p>
@@ -209,7 +209,7 @@ const Travel = (props) => {
               </Tombol>
             </div>
           </div>
-          <div className="max-h-5/6 h-full bg-slate-50 max-w-11/12 w-full rounded-2xl mt-[88px] p-7 md:p-10  md:pb-48 pb-24 drop-shadow-2xl ring-1 ring-slate-400 ">
+          <div className="max-h-5/6 h-full bg-[#ffffff] max-w-11/12 w-full rounded-2xl mt-[88px] p-7 md:p-10  md:pb-48 pb-24 drop-shadow-2xl ring-1 ring-slate-400 ">
             <h1 className="flex justify-center font-bold text-4xl text-slate-800 py-3">Premium</h1>
             <h2 className="text-4xl flex justify-center font-bold text-slate-800 ">Rp 11.500.000 </h2>
             <p className=" text-slate-500 text-xs justify-center flex py-6">Website terintegrasi untuk mendukung operasional dengan cara profesional</p>

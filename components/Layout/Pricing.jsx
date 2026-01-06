@@ -38,19 +38,19 @@ const Pricing = () => {
   return (
     <div className="relative">
       <div className="min-h-screen">
-        <h1 className="pt-28 flex justify-center text-5xl font-bold" id="Pricing">
+        <h1 className="pt-28 flex justify-center md:text-5xl text-3xl font-bold" id="Pricing">
           Harga Layanan
         </h1>
-        <div className="flex justify-center">
+        <div className="flex justify-center md:hidden">
           <div className="inline-flex">
-            <div className="mr-18 mt-4 flex items-center content-center">
+            <div className="md:mr-18 md:mt-11 mt-10 flex items-center content-center border-2 border-hidden rounded-2xl max-h-20 h-full">
               <Tombol jen="p" onClick={() => handleKiri()}>
                 {" "}
                 {"<"}{" "}
               </Tombol>
             </div>
-            <div className="flex justify-center mt-7 h-28 ">
-              <div className="bg-[#1446DB] mt-1 flex px-16 justify-center items-center rounded-3xl">
+            <div className="flex justify-center mt-7 mx-4 md:h-28 h-24 max-w-44 w-full md:max-w-72 md:w-full">
+              <div className="bg-[#1446DB] mt-1 flex p-5 md:p-16 justify-center items-center  rounded-3xl">
                 {""}
                 {juduls
                   .filter((j) => j.id === menu)
@@ -61,7 +61,7 @@ const Pricing = () => {
                   ))}
               </div>
             </div>
-            <div className="ml-18 mt-4 flex items-center content-center">
+            <div className="md:ml-18 md:mt-11  mt-10 flex items-center content-center border-2 border-hidden rounded-2xl max-h-20 h-full">
               <Tombol jen="p" onClick={() => handleKanan()}>
                 {">"}
               </Tombol>
@@ -70,7 +70,7 @@ const Pricing = () => {
         </div>
         <div className="">
           <div className="flex justify-center ">
-            <div className="bg-slate-400 w-xl rounded-2xl mt-16 pb-[88px] md:max-w-4xl md:p-0 md: md:w-full lg:max-w-[1400px] lg:w-full">
+            <div className="bg-[#94A3B8] w-xl rounded-2xl mt-16 pb-[88px] md:max-w-4xl md:p-0 md: md:w-full lg:max-w-[1400px] lg:w-full">
               {juduls
                 .filter((j) => j.id === menu)
                 .map((j) => (
@@ -81,16 +81,16 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-16">
           <div className="inline-flex">
-            <div className="mr-18 mt-4 flex items-center content-center">
+            <div className="md:mr-18 md:mt-11  mt-10 flex items-center content-center border-2 border-hidden rounded-2xl max-h-20 h-full">
               <Tombol jen="p" onClick={() => handleKiri()} hubung="#Pricing">
                 {" "}
                 {"<"}{" "}
               </Tombol>
             </div>
-            <div className="flex justify-center mt-7 h-28 ">
-              <div className="bg-[#1446DB] mt-1 flex px-16 justify-center items-center rounded-3xl">
+            <div className="flex justify-center mt-7 mx-4 md:h-28 h-24 max-w-44 w-full md:max-w-72 md:w-full">
+              <div className="bg-[#1446DB] mt-1 flex p-5 md:p-16 justify-center items-center  rounded-3xl">
                 {""}
                 {juduls
                   .filter((j) => j.id === menu)
@@ -101,7 +101,7 @@ const Pricing = () => {
                   ))}
               </div>
             </div>
-            <div className="ml-18 mt-4 flex items-center content-center">
+            <div className="md:ml-18 md:mt-11  mt-10 flex items-center content-center border-2 border-hidden rounded-2xl max-h-20 h-full">
               <Tombol jen="p" onClick={() => handleKanan()} hubung="#Pricing">
                 {">"}
               </Tombol>

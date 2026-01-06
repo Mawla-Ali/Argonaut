@@ -6,7 +6,7 @@ const Navhp = () => {
   return (
     <>
       {/* TOMBOL */}
-      <button onClick={() => setOpen(!open)} className="mt-1.5 block md:hidden right-12 z-50 fixed">
+      <button onClick={() => setOpen(!open)} className=" -mt-1 block md:hidden right-12 z-50 fixed">
         <img src="Img/Nav/menu.png" alt="" className="ml-10" />
       </button>
       {/* OVERLAY */}
